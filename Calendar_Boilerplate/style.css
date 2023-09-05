@@ -1,0 +1,69 @@
+body {
+  background-image: url('./images/bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 72px;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.vaco-img {
+  width: 200px;
+  height: auto;
+}
+
+.day-Big {
+  text-align: center;
+  margin: 25px;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.day-Small {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.day-Small-Month,
+.day-Small-Year {
+  margin-left: 5px;
+}
+
+.calender {
+  display: flex;
+  margin-top: 35px;
+  justify-content: center; /* Space between the buttons */
+  align-items: center; /* Center items vertically */
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+table {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+th {
+  margin: 5px;
+}
